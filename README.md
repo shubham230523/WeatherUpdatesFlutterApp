@@ -40,3 +40,33 @@ lib/
 ├── screens/     # UI Screens (Home, Search, Splash)
 ├── widgets/     # Reusable UI components
 └── main.dart    # Application entry point
+````
+
+-----
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+  * [Flutter SDK](https://docs.flutter.dev/get-started/install) installed.
+  * An API Key from [OpenWeatherMap](https://openweathermap.org/api).
+
+### Installation & Run
+
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/shubham230523/WeatherUpdatesFlutterApp.git
+    ```
+2.  **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+3.  **Add your API Key:**
+    Open `lib/services/weather_service.dart` (or your constants file) and replace the placeholder with your OpenWeatherMap API key.
+
+4.  **Run the app:**
+    ```bash
+    flutter run
+    ```
+
+-----
